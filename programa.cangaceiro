@@ -1,0 +1,32 @@
+oxente mainha() {
+    inteiroxi x = 8;
+    quaseinteiro y = 3.5;
+    letrinha letra = 'A';
+
+    inteiroxi ponteiro = aperte x;
+    inteiroxi referencia = x;
+
+    visse("Valor de x: %d\n", x);
+    visse("Valor de y: %.2f\n", y);
+    visse("Letra: %c\n", letra);
+    visse("Ponteiro aponta pra: %d\n", mire ponteiro);
+    visse("Referência tem: %d\n", referencia);
+
+    ifoxente (x > 5) {
+        visse("Eita, x é maior que 5!\n");
+    } senãohomi {
+        visse("Oxente, x é menor ou igual a 5!\n");
+    }
+
+    arretado (inteiroxi i = 0; i < 5; i++) {
+        visse("Rodando o for arretado: %d\n", i);
+    }
+
+    inteiroxi i = 0;
+    vish (i < 5) {
+        visse("Rodando o while vish: %d\n", i);
+        i++;
+    }
+
+    volte 0;
+}
